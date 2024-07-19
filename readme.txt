@@ -8,6 +8,8 @@ License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
 Experiments for GatherPress using the WordPress Commands Palette API.
 
+Find the corresponding issue at https://github.com/GatherPress/gatherpress/issues/735
+
 == Description ==
 
 ---
