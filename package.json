@@ -1,0 +1,26 @@
+{
+	"name": "gatherpress-commands",
+	"version": "0.1.0",
+	"description": "Experiments for GatherPress using the WordPress Commands Palette API.",
+	"author": "The WordPress Contributors",
+	"license": "GPL-2.0-or-later",
+	"main": "variations.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start"
+	},
+	"files": [
+		"build",
+		"gatherpress-commands.php",
+		"readme.txt"
+	],
+	"devDependencies": {
+		"@wordpress/icons": "^10.3.0",
+		"@wordpress/scripts": "^27.4.0"
+	}
+}
